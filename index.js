@@ -1,4 +1,4 @@
-function johnLennonFacts(a) {
+johnLennonFacts = (a) => {
   var result = []
 
   let i = 0
