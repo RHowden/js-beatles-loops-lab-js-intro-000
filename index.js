@@ -7,7 +7,7 @@ theBeatlesPlay = (m, ins) => {
   return result
 }
 
-johnLennonFacts = (a) => {
+function johnLennonFacts(a) {
   var result = []
 
   let i = 0
