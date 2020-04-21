@@ -1,12 +1,3 @@
-theBeatlesPlay = (m, ins) => {
-  var result = []
-  for (let i = 0; i < m.length; i++) {
-    result.push(`${m[i]} plays ${ins[i]}`)
-  }
-
-  return result
-}
-
 function johnLennonFacts(a) {
   var result = []
 
@@ -14,6 +5,15 @@ function johnLennonFacts(a) {
   while (i < a.length) {
     result.push(a[i] + '!!!')
     i++
+  }
+
+  return result
+}
+
+theBeatlesPlay = (m, ins) => {
+  var result = []
+  for (let i = 0; i < m.length; i++) {
+    result.push(`${m[i]} plays ${ins[i]}`)
   }
 
   return result
