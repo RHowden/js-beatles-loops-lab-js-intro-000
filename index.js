@@ -6,3 +6,14 @@ theBeatlesPlay = (m, ins) => {
 
   return result
 }
+
+johnLennonFacts = (a) => {
+  var result = []
+
+  let i = 0
+  while (i < a.length) {
+    result.push(a[i] + '!!!')
+  }
+
+  return result
+}
